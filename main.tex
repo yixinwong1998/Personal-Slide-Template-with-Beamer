@@ -1,0 +1,64 @@
+\documentclass{beamer}
+%
+% Choose how your presentation looks.
+%
+\mode<presentation>
+{
+  \usetheme{Madrid}      % or try Darmstadt, Madrid, Warsaw, AnnArbor, Antibes, Bergen
+  % Berkeley, Berlin, Boadilla, Copenhagen, Darmstadt...
+  % See https://hartwork.org/beamer-theme-matrix/
+  \usecolortheme{default} % or try albatross, beaver, crane, albatross, beaver, beetle
+  % crane, dolphin, dove, fly, lily, orchid...
+  % See https://hartwork.org/beamer-theme-matrix/
+  \usefonttheme{default}  % or try serif, structurebold, ...
+  % \setbeamertemplate{navigation symbols}{}  % Navigation pane in each page
+  \setbeamertemplate{caption}[numbered]
+} 
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx} % Allows including images
+
+\title[DRL4IM]{Deep Reinforcement Learning for Inventory Management}
+\author{Yixin WANG}
+\institute[]{
+  \normalsize \textit{wangyixin2020@email.szu.edu.cn}\\
+  \bigskip\normalsize CD406, PolyU, Hong Kong
+}
+\date{\today}
+% Add logo below the date, if you want. Or see how to use: \logo{\large \LaTeX{}}
+% \titlegraphic{
+%   \includegraphics[width=1.8cm]{img/logo-szu.png}\hspace*{0.3cm}~%
+%   \includegraphics[width=1.8cm]{img/logo-college.png}
+% }
+
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+% Automatically generated outline.
+\begin{frame}{Outline}
+ \tableofcontents
+\end{frame}
+
+\section{Inventory Management}
+\input{./Sec1.tex}
+
+\section{Deep Reinforcement Learning}
+\input{./Sec2.tex}
+
+\section{Underway and Nextstep}
+\input{./Sec3.tex}
+
+\section{Some \LaTeX{} Examples}
+\subsection{Tables and Figures}
+\input{./appendix1.tex}
+
+\subsection{Mathematics}
+\input{./appendix2.tex}
+
+\end{document}
